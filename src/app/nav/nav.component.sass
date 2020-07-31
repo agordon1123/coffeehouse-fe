@@ -1,11 +1,33 @@
-.nav-container ul
+.nav-container
     display: flex
-    justify-content: center
+    justify-content: space-between
+    align-items: center
     background-color: #343a40
-    color: white
-    li 
-        margin: 1rem 2rem
-        font-size: 1.6rem
-        &:hover
-            cursor: pointer
-            color: #84a98c
+    ul
+        display: flex
+        justify-content: center
+        color: white
+        height: 3.6rem
+        margin-left: 8rem
+        li 
+            margin: 1rem 2rem
+            font-size: 1.6rem
+            &:hover
+                cursor: pointer
+                // unsure of accent color to go with
+                // color: #84a98c
+                // color: #b7b7a4
+                // color: #a5a58d
+                // color: #619b8a
+                color: #ffb30f
+    .shopping-cart-container
+        margin-right: 8rem
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        i
+            color: white
+        p 
+            color: white
+            font-size: 1.4rem
+            margin-left: .5rem

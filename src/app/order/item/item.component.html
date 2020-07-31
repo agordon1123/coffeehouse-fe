@@ -1,0 +1,9 @@
+<div class='item-container'>
+    <div class='detail-container'>
+        <h3>{{product.title}}</h3>
+        <p>{{product.price}}</p>
+        <i (click)='addToCart(product)' class="fa fa-plus-square fa-2x" aria-hidden="true"></i>
+        <!-- <p >Buy</p> -->
+    </div>
+    <img src='{{product.image}}'/>
+</div>

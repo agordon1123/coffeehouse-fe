@@ -1,0 +1,7 @@
+<div class='order-container'>
+    <div class='orderables-container'>
+        <div class='orderable-item' *ngFor='let product of products'>
+            <app-item [product]='product' (itemAdded)='addToCart($event)'></app-item>
+        </div>
+    </div>
+</div>

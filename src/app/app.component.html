@@ -11,5 +11,7 @@
 
 
 <div class='app-container'>
-    <app-nav></app-nav>
+    <app-nav [cart]='cart'></app-nav>
+    <!-- <app-landing></app-landing> -->
+    <app-order [products]='products' (itemAdded)='addToCart($event)'></app-order>
 </div>
